@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="height: auto;">
+        <header id="header-advanced">
+            <a href="index.html">
+                <img alt="Google-Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </a>
+            <h1>Advanced Search</h1>
+            <hr>
+        </header>
+
+        <main id="main-advanced">
+            <form action="https://www.google.com/search">
+                <fieldset>
+                        <div class="row">
+                            <div class="clm">
+                                <legend>Find pages with...</legend>
+                            </div>
+                            <div class="clm"></div>
+                            <div id="HL" class="clm">
+                                To do this in the search box.
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="clm">
+                                <label for="as_q">
+                                    all these words:
+                                </lable>
+                            </div>
+                            <div class="clm">
+                                <input type="text" name="as_q" id="as_q" autofocus>
+                            </div>
+                            <div class="clm">
+                                Type the important words:
+                                <span>tri-colour rat terrier</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="clm">
+                                <label for="as_epq">
+                                    this exact word or phrase:
+                                </lable>
+                            </div>
+                            <div class="clm">
+                                <input type="text" name="as_epq" id="as_epq">
+                            </div>
+                            <div class="clm">
+                                Put exact words in quotes:
+                                <span>"rat terrier"</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="clm">
+                                <label for="as_oq">
+                                    any of these words:
+                                </lable>
+                            </div>
+                            <div class="clm">
+                                <input type="text" name="as_oq" id="as_oq">
+                            </div>
+                            <div class="clm">
+                                Type OR between all the words you want:
+                                <span>miniature OR standard</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="clm">
+                                <label for="as_eq">
+                                    none of these words:
+                                </lable>
+                            </div>
+                            <div class="clm">
+                                <input type="text" name="as_eq" id="as_eq">
+                            </div>
+                            <div class="clm">
+                                Put a minus sign just before words that you don't want:
+                                <br>
+                                <span>-rodent, -"Jack Russell"</span>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="clm"></div>
+                            <div class="clm" id="advanced-button">
+                                <input type="submit" value="Advanced Search">
+                            </div>
+
+                            <div class="clm"></div>
+                        </div>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
